@@ -9,7 +9,7 @@ namespace WebApiBestPractice.DataAccess
 
         public int Complete()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void Dispose()
