@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using WebApiBestPractice.Domain.Interfaces;
 
 namespace WebApiBestPractice.DataAccess
 {
     public class UnitOfWork : IUnitOfWork
     {
+        #region Public Methods
+
         public int Complete()
         {
             throw new NotImplementedException();
@@ -16,5 +16,7 @@ namespace WebApiBestPractice.DataAccess
         {
             throw new NotImplementedException();
         }
+
+        #endregion Public Methods
     }
 }
